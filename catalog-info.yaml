@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "projecta"
+  description: "ifhjfh"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/projecta"
+    argocd/app-name: "projecta"
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://project.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
